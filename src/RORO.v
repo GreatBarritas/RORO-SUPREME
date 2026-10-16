@@ -6,12 +6,16 @@ module RORO(
 
 wire [31:0]c1,c2;
 
-ROM Roma(
+ROM #(
+	FILENAME = "Datos_ROMa.txt"
+)Roma(
 	.DirL(instruccion[7:4]),
 	.Data(c1)
 	);
 
-ROM Romina(
+ROM #(
+	FILENAME = "Datos_ROMina.txt"
+) Romina(
 	.DirL(instruccion[3:0]),
 	.Data(c2)
 	);
