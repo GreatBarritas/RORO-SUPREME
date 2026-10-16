@@ -1,4 +1,4 @@
-`timescale 100ns/100ns
+`timescale 1ns/1ns
 
 module RORO_SUPREME_tb();
 

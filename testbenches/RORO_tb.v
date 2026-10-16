@@ -1,4 +1,4 @@
-`timescale 100ns/100ns
+`timescale 1ns/1ns
 
 module RORO_tb();
 
@@ -68,8 +68,6 @@ begin
 
     instruccion_tb = 12'b0111_1111_1111; // STL: 20 < 4 = 0
     #100;
-
-    $finish;
 
 end
 
