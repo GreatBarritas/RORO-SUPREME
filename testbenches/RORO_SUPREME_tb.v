@@ -12,11 +12,13 @@ RORO_SUPREME DUV (
     .ZF(ZF_tb)
 );
 
+integer i;
+
 initial
 begin
     // Recorremos todas las instrucciones de la ROM de instrucciones (0 - 15)
 
-    integer i;
+
 
     for (i = 0; i < 16; i = i + 1) begin
         // Asignamos la dirección actual a la entrada del módulo
