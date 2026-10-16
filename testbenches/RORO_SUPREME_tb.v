@@ -16,7 +16,9 @@ initial
 begin
     // Recorremos todas las instrucciones de la ROM de instrucciones (0 - 15)
 
-    for (integer i = 0; i < 16; i = i + 1) begin
+    integer i;
+
+    for (i = 0; i < 16; i = i + 1) begin
         // Asignamos la dirección actual a la entrada del módulo
         direccion_tb = i[3:0];
         #100; // Esperamos 100 unidades de tiempo entre cada instrucción
