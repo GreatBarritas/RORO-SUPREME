@@ -1,9 +1,9 @@
 Asignatura: Arquitectura de computadoras.
 Equipo: Barritas.
 Integrantes: 
-Xavier Alejandro Rodríguez Ramírez
-Diego Arian Molina Anaya
-Angel Isaac Vazquez Romero
+Xavier Alejandro Rodríguez Ramírez,
+Diego Arian Molina Anaya,
+Angel Isaac Vazquez Romero.
 Profesor: Jorge Ernesto Lopez Arce Delgado
 Fecha: 16/10/2026
 Título de actividad: Act4. Memorias e Instrucciones.
